@@ -53,3 +53,43 @@ button{cursor:pointer}
 .nav-links a:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600}
+.login-link:hover{color:var(--blue)}
+.language{border:1px solid var(--line);background:#fff;padding:9px 13px;border-radius:20px;color:#556079}
+.menu-toggle{display:none;border:0;background:none;font-size:24px}
+
+.btn{border:0;border-radius:9px;padding:13px 22px;font-weight:700;font-size:13px;transition:.2s;display:inline-flex;justify-content:center;align-items:center;gap:8px}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 6px 16px rgba(20,100,244,.2)}
+.btn-small{padding:11px 18px}
+.btn-outline{border:1px solid #d5def0;background:#fff;color:var(--blue);box-shadow:none}
+
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:390px;align-items:center;padding-top:28px}
+.eyebrow{display:inline-block;background:#edf4ff;color:var(--blue);font-size:12px;font-weight:700;padding:6px 11px;border-radius:20px;letter-spacing:.15px}
+.hero-copy h1{font-size:48px;line-height:1.04;letter-spacing:-2px;margin:17px 0}
+.hero-copy h1 span{color:var(--blue)}
+.hero-copy p{max-width:480px;color:#68738b;font-size:15px}
+.hero-visual {
+    position: relative;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-blob {
+    position: absolute;
+    width: 560px;
+    height: 330px;
+    background: #eef5ff;
+    border-radius: 55% 45% 50% 40%;
+    
+    top: 5px;
+    right: 10px;
+
+    z-index: 0;
+
+            transform: translateY(-30px);
+
+}
