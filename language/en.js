@@ -89,4 +89,25 @@ const translationsEN = {
 
     category5_title: "Premium & electric",
     category5_text: "Drive the future",
+
+    // PROCESS
+    process_badge: "SMART PROCESS",
+    process_title: "How Veygo works",
+
+    step1_title: "Create your account",
+    step1_text:
+        "Sign up, verify your identity and complete your profile.",
+
+    step2_title: "Find your vehicle",
+    step2_text:
+        "Search by location, needs, dates, budget and more.",
+
+    step3_title: "Book and pay securely",
+    step3_text:
+        "Book in minutes and pay securely through the platform.",
+
+    step4_title: "Enjoy your trip",
+    step4_text:
+        "Pick up the vehicle, enjoy it and return it hassle-free.",
+
 };
