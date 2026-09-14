@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root{
+  --blue:#1464f4;
+  --blue-dark:#0e1b45;
+  --text:#17213d;
+  --muted:#78839d;
+  --line:#e7ebf3;
+  --soft:#f5f8ff;
+  --dark:#0d1120;
+  --green:#24b45a;
+  --shadow:0 8px 28px rgba(22,39,76,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.45}
+a{text-decoration:none;color:inherit}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.section{width:min(1400px,calc(100% - 80px));margin-inline:auto}
+
+.navbar{height:78px;display:flex;align-items:center;gap:38px;width:min(1400px,calc(100% - 80px));margin:auto}
+.brand{display:flex;align-items:center;gap:7px;font-size:26px;font-weight:800;font-style:italic;color:#18213d;white-space:nowrap}
+.brand img {
+    width: 140px;
+    height: auto;
+    display: block;
+}
