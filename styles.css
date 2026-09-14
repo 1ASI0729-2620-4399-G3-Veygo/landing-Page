@@ -26,3 +26,30 @@ button{cursor:pointer}
     height: auto;
     display: block;
 }
+.nav-links{display:flex;gap:28px;margin-left:45px;font-size:13px;font-weight:600;color:#44506b}
+.nav-links a {
+    padding: 28px 0 25px;
+    position: relative;
+    color: #44506b;
+    transition: color 0.2s ease;
+}
+.nav-links a:hover {
+    color: var(--blue);
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 24px;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    background: var(--blue);
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+
+.nav-links a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
