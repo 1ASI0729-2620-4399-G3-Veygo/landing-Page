@@ -150,6 +150,41 @@ const translationsEN = {
 
     trust3_text:
         "Real two-way evaluations help maintain a trustworthy community between owners and renters.",
+    // TESTIMONIALS
+    testimonials_badge: "TESTIMONIALS",
+
+    testimonials_title:
+        "What our Lima community says",
+
+    testimonials_text:
+        "Real users share their experiences renting, buying and selling through Veygo.",
+
+    testimonial1_role: "Car Owner",
+
+    testimonial1_text:
+        "Veygo helped me discover my vehicle without complications. The checklist and verification system gave me confidence.",
+
+    testimonial2_role: "Vehicle Renter",
+
+    testimonial2_text:
+        "I rented an SUV for 3 days before deciding to buy it. It was a great experience and the vehicle was in excellent condition.",
+
+    testimonial3_role: "Buyer",
+
+    testimonial3_text:
+        "I bought my first hybrid car through the platform. Being able to coordinate directly with the owner was key.",
+
+    // FINAL CTA
+    final_badge: "JOIN TODAY",
+
+    final_title:
+        "Ready to experience the future of mobility in Lima?",
+
+    final_text:
+        "Sign up for free, verify your account in 5 minutes and start exploring verified vehicles in your area.",
+
+    final_register: "Sign up for free",
+    final_whatsapp: "WhatsApp support",
 
 
 };
