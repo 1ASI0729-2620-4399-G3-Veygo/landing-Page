@@ -65,4 +65,28 @@ const translationsEN = {
     search_premium: "Premium & electric",
 
     search_button: "Search",
+
+     // CATEGORIES
+    categories_badge: "CATEGORIES",
+
+    categories_title:
+        "Find the perfect vehicle for your needs",
+
+    categories_text:
+        "Filter according to your needs today. From daily mobility to weekend trips.",
+
+    category1_title: "Daily work",
+    category1_text: "Move around the city",
+
+    category2_title: "Family & travel",
+    category2_text: "Share more moments",
+
+    category3_title: "Work & cargo",
+    category3_text: "Grow your business",
+
+    category4_title: "Off-road adventure",
+    category4_text: "Explore without limits",
+
+    category5_title: "Premium & electric",
+    category5_text: "Drive the future",
 };
