@@ -186,5 +186,39 @@ const translationsEN = {
     final_register: "Sign up for free",
     final_whatsapp: "WhatsApp support",
 
+    // FOOTER
+    footer_description:
+        "Peer-to-peer digital vehicle platform in Lima, developed with technology and support.",
 
+    footer_veygo: "VEYGO",
+    footer_support: "SUPPORT",
+    footer_backed: "BACKED BY",
+
+    footer_vehicles: "Vehicles",
+    footer_how: "How it works",
+    footer_trust: "Trust",
+    footer_blog: "Blog",
+
+    footer_terms: "Terms and conditions",
+    footer_privacy: "Privacy policy",
+    footer_faq: "Frequently asked questions",
+    footer_security: "Safety channel",
+
+    footer_startup:
+        "Leading Peruvian startup in technology solutions.",
+
+    footer_copy:
+        "© 2026 Veygo S.A.C. All rights reserved.",
+
+    footer_lima: "Lima, Peru",
+
+    // SEARCH MESSAGES
+    form_required:
+        "Complete all fields to search for a vehicle.",
+
+    form_date_error:
+        "The return date must be later than the start date.",
+
+    form_searching:
+        "Searching for vehicles for {need} in {location}..."
 };
