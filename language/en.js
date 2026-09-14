@@ -32,4 +32,37 @@ const translationsEN = {
     segment_owner_title: "I want to list my vehicle",
     segment_owner_text: "Generate income safely and without complications.",
     segment_owner_button: "List my vehicle",
+
+    // STATISTICS
+    stats_vehicles: "Verified vehicles",
+    stats_vehicles_desc: "Rigorously inspected",
+
+    stats_users: "Active users",
+    stats_users_desc: "Safe community in Lima",
+
+    stats_guarantee: "Backup guarantee",
+    stats_guarantee_desc: "Support and insurance",
+
+    stats_satisfaction: "Satisfaction rate",
+    stats_satisfaction_desc: "Average rating",
+
+    // SEARCH
+    search_title: "Where and when do you need a vehicle?",
+
+    search_location: "Location",
+    search_location_placeholder: "City or area",
+
+    search_start: "Start date",
+    search_end: "Return date",
+
+    search_need: "What do you need?",
+    search_select: "Select an option",
+
+    search_work: "Daily work",
+    search_family: "Family & travel",
+    search_cargo: "Work & cargo",
+    search_adventure: "Off-road adventure",
+    search_premium: "Premium & electric",
+
+    search_button: "Search",
 };
