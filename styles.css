@@ -93,3 +93,35 @@ button{cursor:pointer}
             transform: translateY(-30px);
 
 }
+.hero-visual img {
+    position: relative;
+    z-index: 1;
+
+    width: 88%;
+    height: auto;
+    object-fit: contain;
+    
+    transform: translateX(-105px);
+
+}
+.scribble{position:absolute;right:5px;top:35px;color:var(--blue);font-size:14px;font-weight:600;transform:rotate(-5deg)}
+
+.segment-section{margin-top:15px;background:#f5f8ff;border-radius:18px;padding:40px 40px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:25px;align-items:center}
+.segment-intro h2{font-size:21px;margin:5px 0}
+.segment-intro p{color:var(--muted);font-size:12px}
+.segment-card{background:#fff;border:1px solid #e3eafa;border-radius:13px;padding:18px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:13px;min-height:100px;transition:.2s;box-shadow:0 3px 12px rgba(20,45,90,.04)}
+.segment-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.segment-card.owner{border-color:#d8f0e0}
+.segment-icon{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#edf4ff;font-size:21px}
+.owner .segment-icon{background:#e7f8eb}
+.segment-card h3{font-size:14px;margin-bottom:3px}
+.segment-card p{font-size:11px;color:#78839d}
+.arrow-btn{border:0;background:none;color:var(--blue);font-size:24px}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 38px 15px;
+    gap: 20px;
+    text-align: center;
+}
