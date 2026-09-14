@@ -110,4 +110,46 @@ const translationsEN = {
     step4_text:
         "Pick up the vehicle, enjoy it and return it hassle-free.",
 
+    // VEHICLES
+    vehicles_badge: "FEATURED",
+    vehicles_title: "Explore available vehicles",
+
+    vehicles_text:
+        "Verified vehicles in Lima, ready to drive.",
+
+    vehicles_button: "View all models →",
+
+    vehicles_day: "/ day",
+    vehicles_passengers: "passengers",
+
+    vehicle1_tag: "AUTOMATIC",
+    vehicle2_tag: "AUTOMATIC",
+    vehicle3_tag: "100% ELECTRIC",
+    vehicle4_tag: "4X4",
+
+    // TRUST
+    trust_badge: "TOTAL TRUST",
+
+    trust_title:
+        "Your safety and peace of mind are our priority",
+
+    trust_text:
+        "We build a technology-backed ecosystem to ensure every transaction is secure.",
+
+    trust1_title: "AI identity verification",
+
+    trust1_text:
+        "We validate background information, driver's license and driving records before enabling each user's Veygo account.",
+
+    trust2_title: "Pre/Post Condition Report",
+
+    trust2_text:
+        "Avoid misunderstandings. Our app guides users through a mandatory photographic checklist of the vehicle before and after delivery.",
+
+    trust3_title: "Reputation ratings",
+
+    trust3_text:
+        "Real two-way evaluations help maintain a trustworthy community between owners and renters.",
+
+
 };
