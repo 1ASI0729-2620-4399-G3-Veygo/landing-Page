@@ -107,3 +107,79 @@ languageBtn.addEventListener("click", (event) => {
     languageMenu.classList.toggle("show");
 
 });
+
+document.addEventListener("click", () => {
+
+    languageMenu.classList.remove("show");
+
+});
+document.querySelectorAll(".language-menu button").forEach(button => {
+
+    button.addEventListener("click", (event) => {
+
+        event.stopPropagation();
+
+        const lang = button.dataset.lang;
+
+        cambiarIdioma(lang);
+
+        languageMenu.classList.remove("show");
+
+    });
+
+});
+
+
+const idiomaGuardado =
+    localStorage.getItem("veygoLanguage") || "es";
+
+cambiarIdioma(idiomaGuardado);
+
+document.querySelectorAll(".language-menu button").forEach(button => {
+    button.addEventListener("click", (event) => {
+        event.stopPropagation();
+
+        const lang = button.dataset.lang;
+
+        if (lang === "es") {
+            currentLanguage.textContent = "Español";
+            cambiarIdioma("es");
+        }
+
+        if (lang === "en") {
+            currentLanguage.textContent = "English";
+            cambiarIdioma("en");
+        }
+
+        languageMenu.classList.remove("show");
+    });
+});
+
+
+
+
+document.getElementById("registerBtn").addEventListener("click", () => {
+  alert("Demo: aquí se abriría el formulario de registro.");
+});
+
+document.getElementById("whatsappBtn").addEventListener("click", () => {
+  window.open("https://wa.me/", "_blank");
+});
+
+const today = new Date().toISOString().split("T")[0];
+document.getElementById("startDate").min = today;
+document.getElementById("endDate").min = today;
+
+const sections = document.querySelectorAll("main section[id]");
+const links = document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll", () => {
+  let current = "inicio";
+  sections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - 150) current = section.id;
+  });
+
+  links.forEach(link => {
+    link.classList.toggle("active", link.getAttribute("href") === `#${current}`);
+  });
+});
