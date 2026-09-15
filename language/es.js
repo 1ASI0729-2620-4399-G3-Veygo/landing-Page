@@ -46,4 +46,48 @@ const translationsES = {
 
     stats_satisfaction: "Tasa de satisfacción",
     stats_satisfaction_desc: "Calificación promedio",
+
+    // BUSCADOR
+    search_title: "¿Dónde y cuándo necesitas un vehículo?",
+
+    search_location: "Ubicación",
+    search_location_placeholder: "Ciudad o zona",
+
+    search_start: "Fecha de inicio",
+    search_end: "Fecha de devolución",
+
+    search_need: "¿Qué necesitas?",
+    search_select: "Selecciona una opción",
+
+    search_work: "Trabajo diario",
+    search_family: "Familiar y viajes",
+    search_cargo: "Trabajo & carga",
+    search_adventure: "Aventura todo terreno",
+    search_premium: "Premium & eléctricos",
+
+    search_button: "Buscar",
+
+    // CATEGORÍAS
+    categories_badge: "CATEGORÍAS",
+
+    categories_title:
+        "Encuentra el vehículo perfecto para tu propósito",
+
+    categories_text:
+        "Filtra de acuerdo a tu necesidad de hoy. Desde movilidad diaria hasta viajes de fin de semana.",
+
+    category1_title: "Trabajo diario",
+    category1_text: "Muévete por la ciudad",
+
+    category2_title: "Familiar y viajes",
+    category2_text: "Comparte más momentos",
+
+    category3_title: "Trabajo & carga",
+    category3_text: "Haz crecer tu negocio",
+
+    category4_title: "Aventura todo terreno",
+    category4_text: "Explora sin límites",
+
+    category5_title: "Premium & eléctricos",
+    category5_text: "Conduce el futuro",
 }
