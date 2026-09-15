@@ -33,3 +33,8 @@ form.addEventListener("submit", (event) => {
 
   message.textContent = `Buscando vehículos para ${need.toLowerCase()} en ${location}...`;
 });
+
+const languageBtn = document.getElementById("languageBtn");
+const languageMenu = document.getElementById("languageMenu");
+const currentLanguage = document.getElementById("currentLanguage");
+
