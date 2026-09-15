@@ -127,4 +127,28 @@ const translationsES = {
     vehicle2_tag: "AUTOMÁTICO",
     vehicle3_tag: "100% ELÉCTRICO",
     vehicle4_tag: "4X4",
+
+    // CONFIANZA
+    trust_badge: "CONFIANZA TOTAL",
+
+    trust_title:
+        "Nuestro pilar es tu seguridad y tranquilidad",
+
+    trust_text:
+        "Construimos un ecosistema tecnológico respaldado para garantizar que cada transacción sea segura.",
+
+    trust1_title: "Verificación de identidad con IA",
+
+    trust1_text:
+        "Validamos antecedentes, licencia de conducir y récord de conducta de cada usuario antes de habilitar su cuenta en Veygo.",
+
+    trust2_title: "Registro de Estado Pre/Post",
+
+    trust2_text:
+        "Evita malentendidos. Nuestra app guía en un checklist fotográfico obligatorio del estado del auto antes y después de la entrega.",
+
+    trust3_title: "Calificaciones de reputación",
+
+    trust3_text:
+        "Evaluaciones bidireccionales reales para mantener una comunidad confiable entre propietarios y arrendatarios.",
 }
