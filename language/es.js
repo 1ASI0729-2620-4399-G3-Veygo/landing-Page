@@ -187,4 +187,40 @@ const translationsES = {
 
     final_register: "Registrarme gratis",
     final_whatsapp: "Soporte por WhatsApp",
-}
+    
+    // FOOTER
+    footer_description:
+        "Plataforma digital peer-to-peer de vehículos en Lima Metropolitana, desarrollada con tecnología y respaldo.",
+
+    footer_veygo: "VEYGO",
+    footer_support: "SOPORTE",
+    footer_backed: "RESPALDADO POR",
+
+    footer_vehicles: "Vehículos",
+    footer_how: "Cómo funciona",
+    footer_trust: "Confianza",
+    footer_blog: "Blog",
+
+    footer_terms: "Términos y condiciones",
+    footer_privacy: "Política de privacidad",
+    footer_faq: "Preguntas frecuentes",
+    footer_security: "Canal de seguridad",
+
+    footer_startup:
+        "Startup peruana líder en soluciones tecnológicas.",
+
+    footer_copy:
+        "© 2026 Veygo S.A.C. Todos los derechos reservados.",
+
+    footer_lima: "Lima, Perú",
+
+    // MENSAJES DEL BUSCADOR
+    form_required:
+        "Completa todos los campos para buscar un vehículo.",
+
+    form_date_error:
+        "La fecha de devolución debe ser posterior a la fecha de inicio.",
+
+    form_searching:
+        "Buscando vehículos para {need} en {location}..."
+};
