@@ -99,3 +99,11 @@ function cambiarIdioma(lang) {
             ? "English"
             : "Español";
 }
+
+languageBtn.addEventListener("click", (event) => {
+
+    event.stopPropagation();
+
+    languageMenu.classList.toggle("show");
+
+});
