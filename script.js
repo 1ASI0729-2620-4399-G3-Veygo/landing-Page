@@ -38,3 +38,64 @@ const languageBtn = document.getElementById("languageBtn");
 const languageMenu = document.getElementById("languageMenu");
 const currentLanguage = document.getElementById("currentLanguage");
 
+function cambiarIdioma(lang) {
+
+    const translations =
+        lang === "en"
+            ? translationsEN
+            : translationsES;
+
+
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+
+        const key = element.dataset.i18n;
+
+        if (translations[key]) {
+            element.textContent = translations[key];
+        }
+
+    });
+
+
+    document.querySelectorAll("[data-i18n-html]").forEach(element => {
+
+        const key = element.dataset.i18nHtml;
+
+        if (translations[key]) {
+            element.innerHTML = translations[key];
+        }
+
+    });
+
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
+
+        const key = element.dataset.i18nPlaceholder;
+
+        if (translations[key]) {
+            element.placeholder = translations[key];
+        }
+
+    });
+
+
+    document.querySelectorAll("[data-i18n-aria]").forEach(element => {
+
+        const key = element.dataset.i18nAria;
+
+        if (translations[key]) {
+            element.setAttribute("aria-label", translations[key]);
+        }
+
+    });
+
+
+    localStorage.setItem("veygoLanguage", lang);
+
+    document.documentElement.lang = lang;
+
+    currentLanguage.textContent =
+        lang === "en"
+            ? "English"
+            : "Español";
+}
