@@ -90,4 +90,41 @@ const translationsES = {
 
     category5_title: "Premium & eléctricos",
     category5_text: "Conduce el futuro",
+
+     // PROCESO
+    process_badge: "PROCESO INTELIGENTE",
+    process_title: "Así funciona Veygo",
+
+    step1_title: "Crea tu cuenta",
+    step1_text:
+        "Regístrate, verifica tu identidad y completa tu perfil.",
+
+    step2_title: "Encuentra tu vehículo",
+    step2_text:
+        "Busca por ubicación, necesidad, fechas, presupuesto y más.",
+
+    step3_title: "Reserva y paga seguro",
+    step3_text:
+        "Reserva en minutos y paga de forma segura en la plataforma.",
+
+    step4_title: "Disfruta tu viaje",
+    step4_text:
+        "Retira el vehículo, disfrútalo y devuélvelo sin complicaciones.",
+
+    // VEHÍCULOS
+    vehicles_badge: "DESTACADOS",
+    vehicles_title: "Explora vehículos disponibles",
+
+    vehicles_text:
+        "Unidades verificadas en Lima, listas para conducir.",
+
+    vehicles_button: "Ver todos los modelos →",
+
+    vehicles_day: "/ día",
+    vehicles_passengers: "pasajeros",
+
+    vehicle1_tag: "AUTOMÁTICO",
+    vehicle2_tag: "AUTOMÁTICO",
+    vehicle3_tag: "100% ELÉCTRICO",
+    vehicle4_tag: "4X4",
 }
