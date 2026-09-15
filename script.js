@@ -163,7 +163,7 @@ document.getElementById("registerBtn").addEventListener("click", () => {
 });
 
 document.getElementById("whatsappBtn").addEventListener("click", () => {
-  window.open("https://wa.me/", "_blank");
+  window.open("https://wa.me/984241153", "_blank");
 });
 
 const today = new Date().toISOString().split("T")[0];
