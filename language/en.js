@@ -18,7 +18,7 @@ const translationsEN = {
         "Connect with verified owners and rent the ideal vehicle for every occasion. Easy, safe and transparent.",
 
     hero_button: "Find vehicles",
-    hero_how_button: "How it works"
+    hero_how_button: "How it works",
 
     // SEGMENTS
     segment_badge: "FOR EVERYONE",
