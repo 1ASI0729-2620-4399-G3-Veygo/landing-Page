@@ -203,6 +203,84 @@
 
 
 
+    <!-- BUSCADOR -->
+    <section class="section" id="buscar">
+
+        <div class="search-box">
+
+            <h2 data-i18n="search_title">
+                ¿Dónde y cuándo necesitas un vehículo?
+            </h2>
+
+            <form id="searchForm">
+
+                <label>
+                    <span data-i18n="search_location">Ubicación</span>
+
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="Ciudad o zona"
+                        data-i18n-placeholder="search_location_placeholder">
+                </label>
+
+                <label>
+                    <span data-i18n="search_start">Fecha de inicio</span>
+                    <input type="date" id="startDate">
+                </label>
+
+                <label>
+                    <span data-i18n="search_end">Fecha de devolución</span>
+                    <input type="date" id="endDate">
+                </label>
+
+                <label>
+                    <span data-i18n="search_need">¿Qué necesitas?</span>
+
+                    <select id="need">
+
+                        <option value="" data-i18n="search_select">
+                            Selecciona una opción
+                        </option>
+
+                        <option value="Trabajo diario" data-i18n="search_work">
+                            Trabajo diario
+                        </option>
+
+                        <option value="Familiar y viajes" data-i18n="search_family">
+                            Familiar y viajes
+                        </option>
+
+                        <option value="Trabajo & carga" data-i18n="search_cargo">
+                            Trabajo & carga
+                        </option>
+
+                        <option value="Aventura todo terreno" data-i18n="search_adventure">
+                            Aventura todo terreno
+                        </option>
+
+                        <option value="Premium & eléctricos" data-i18n="search_premium">
+                            Premium & eléctricos
+                        </option>
+
+                    </select>
+                </label>
+
+                <button type="submit"
+                        class="btn btn-primary"
+                        data-i18n="search_button">
+                    Buscar
+                </button>
+
+            </form>
+
+            <div id="formMessage" class="form-message"></div>
+
+        </div>
+
+    </section>
+
+
 
 
 
