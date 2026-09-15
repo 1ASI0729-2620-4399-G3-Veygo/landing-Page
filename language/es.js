@@ -151,4 +151,40 @@ const translationsES = {
 
     trust3_text:
         "Evaluaciones bidireccionales reales para mantener una comunidad confiable entre propietarios y arrendatarios.",
+
+    // TESTIMONIOS
+    testimonials_badge: "TESTIMONIOS",
+
+    testimonials_title:
+        "Lo que opina nuestra comunidad en Lima",
+
+    testimonials_text:
+        "Usuarios reales comparten sus experiencias alquilando, comprando y vendiendo a través de Veygo.",
+
+    testimonial1_role: "Propietario de Auto",
+
+    testimonial1_text:
+        "Veygo me permitió descubrir mi camioneta sin complicaciones. El sistema de checklist y la verificación me dio confianza.",
+
+    testimonial2_role: "Arrendataria de Vehículo",
+
+    testimonial2_text:
+        "Alquilé una SUV por 3 días antes de decidir comprarla. Fue una gran experiencia y pude ver que estaba en muy buen estado.",
+
+    testimonial3_role: "Usuario Comprador",
+
+    testimonial3_text:
+        "Compré mi primer auto híbrido a través de la plataforma. La facilidad de coordinar directo con el dueño fue clave.",
+
+    // CTA FINAL
+    final_badge: "ÚNETE HOY",
+
+    final_title:
+        "¿Listo para vivir la movilidad del futuro en Lima?",
+
+    final_text:
+        "Regístrate gratis, verifica tu cuenta en 5 minutos y comienza a explorar vehículos verificados en tu zona.",
+
+    final_register: "Registrarme gratis",
+    final_whatsapp: "Soporte por WhatsApp",
 }
