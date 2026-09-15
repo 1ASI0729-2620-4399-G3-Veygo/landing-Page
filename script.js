@@ -9,3 +9,6 @@ document.querySelectorAll(".segment-card").forEach(card => {
     }
   });
 });
+
+const form = document.getElementById("searchForm");
+const message = document.getElementById("formMessage");
