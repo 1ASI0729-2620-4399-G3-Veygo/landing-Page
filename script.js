@@ -1,3 +1,15 @@
+const VEYGO_APP_URL = "https://veygo-web-app.web.app";
+
+function goToApp(path, params = {}) {
+  const url = new URL(path, VEYGO_APP_URL);
+  Object.entries(params).forEach(([key, value]) => {
+    if (value) url.searchParams.set(key, value);
+  });
+  window.location.href = url.toString();
+}
+
+
+
 document.querySelectorAll(".segment-card").forEach(card => {
   card.addEventListener("click", () => {
     const action = card.dataset.action;
@@ -5,7 +17,7 @@ document.querySelectorAll(".segment-card").forEach(card => {
       document.getElementById("buscar").scrollIntoView({ behavior: "smooth" });
       setTimeout(() => document.getElementById("location").focus(), 500);
     } else {
-      document.getElementById("registro").scrollIntoView({ behavior: "smooth" });
+      goToApp("/sign-up?role=owner");
     }
   });
 });
@@ -31,7 +43,7 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  message.textContent = `Buscando vehículos para ${need.toLowerCase()} en ${location}...`;
+    goToApp("/renter/search", { district: location, start, end, category: need });
 });
 
 const languageBtn = document.getElementById("languageBtn");
@@ -159,9 +171,18 @@ document.querySelectorAll(".language-menu button").forEach(button => {
 
 
 document.getElementById("registerBtn").addEventListener("click", () => {
-  alert("Demo: aquí se abriría el formulario de registro.");
+  goToApp("/sign-up?role=renter");
 });
 
+document.querySelectorAll(".category-card").forEach(card => {
+  card.addEventListener("click", () => {
+    goToApp("/renter/search", { category: card.dataset.category });
+  });
+});
+
+document.querySelectorAll(".vehicle-card").forEach(card => {
+  card.addEventListener("click", () => goToApp("/renter/search"));
+});
 document.getElementById("whatsappBtn").addEventListener("click", () => {
   window.open("https://wa.me/984241153", "_blank");
 });
