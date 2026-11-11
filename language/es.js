@@ -222,5 +222,14 @@ const translationsES = {
         "La fecha de devolución debe ser posterior a la fecha de inicio.",
 
     form_searching:
-        "Buscando vehículos para {need} en {location}..."
+        "Buscando vehículos para {need} en {location}...",
+
+
+    nav_videos: "Videos",
+    videos_badge: "CONOCE VEYGO",
+    videos_title: "Mira cómo funciona Veygo y conoce al equipo",
+    video_product_title: "Acerca del producto",
+    video_product_text: "Descubre cómo Veygo conecta a propietarios y arrendatarios de vehículos en Lima.",
+    video_team_title: "Acerca del equipo",
+    video_team_text: "Conoce al equipo Zyntra y el proceso de trabajo detrás de Veygo."
 };

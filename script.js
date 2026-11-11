@@ -33,13 +33,19 @@ form.addEventListener("submit", (event) => {
   const end = document.getElementById("endDate").value;
   const need = document.getElementById("need").value;
 
+  const esp = document.documentElement.lang === "es";
+
   if (!location || !start || !end || !need) {
-    message.textContent = "Completa todos los campos para buscar un vehículo.";
+    message.textContent = esp
+      ? "Completa todos los campos para buscar un vehículo."
+      : "Complete all the fields to search for a vehicle.";
     return;
   }
 
   if (end < start) {
-    message.textContent = "La fecha de devolución debe ser posterior a la fecha de inicio.";
+    message.textContent = esp
+      ? "La fecha de devolución debe ser posterior a la fecha de inicio."
+      : "The return date must be after the start date.";
     return;
   }
 
@@ -143,31 +149,9 @@ document.querySelectorAll(".language-menu button").forEach(button => {
 
 
 const idiomaGuardado =
-    localStorage.getItem("veygoLanguage") || "es";
+    localStorage.getItem("veygoLanguage") || "en";
 
 cambiarIdioma(idiomaGuardado);
-
-document.querySelectorAll(".language-menu button").forEach(button => {
-    button.addEventListener("click", (event) => {
-        event.stopPropagation();
-
-        const lang = button.dataset.lang;
-
-        if (lang === "es") {
-            currentLanguage.textContent = "Español";
-            cambiarIdioma("es");
-        }
-
-        if (lang === "en") {
-            currentLanguage.textContent = "English";
-            cambiarIdioma("en");
-        }
-
-        languageMenu.classList.remove("show");
-    });
-});
-
-
 
 
 document.getElementById("registerBtn").addEventListener("click", () => {
@@ -184,7 +168,7 @@ document.querySelectorAll(".vehicle-card").forEach(card => {
   card.addEventListener("click", () => goToApp("/renter/search"));
 });
 document.getElementById("whatsappBtn").addEventListener("click", () => {
-  window.open("https://wa.me/984241153", "_blank");
+  window.open("https://wa.me/51984241153", "_blank");
 });
 
 const today = new Date().toISOString().split("T")[0];
