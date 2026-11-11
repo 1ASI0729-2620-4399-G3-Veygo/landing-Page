@@ -220,5 +220,13 @@ const translationsEN = {
         "The return date must be later than the start date.",
 
     form_searching:
-        "Searching for vehicles for {need} in {location}..."
+        "Searching for vehicles for {need} in {location}...",
+
+    nav_videos: "Videos",
+    videos_badge: "MEET VEYGO",
+    videos_title: "See how Veygo works and meet the team",
+    video_product_title: "About the Product",
+    video_product_text: "Discover how Veygo connects vehicle owners and renters in Lima.",
+    video_team_title: "About the Team",
+    video_team_text: "Meet the Zyntra team and the work process behind Veygo."
 };
